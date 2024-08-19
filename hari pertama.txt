@@ -19,5 +19,39 @@ Undoing mistakes
 Seeing our progress
 Experimenting Safely
 
-hi ariston, currently in my house the electric is shot down and my battery are leaking. maybe i will leave this zoom soon, if electic is on again, i will join later.
+Git
+- Check the version of git
+git --version
 
+- Configuring Git
+git config --global user.name "username"
+git config --global user.email "email"
+git config user.name 
+git config user.email 
+
+- Initialize a Repository
+git init
+
+- Check the status of the files and folders
+git status
+
+- Add the files into the staging area
+git add .
+
+- Create a commit
+git commit -m ""
+
+- View git commit history
+git log
+
+
+
+
+
+
+
+
+
+add
+commit -m "Pesan yang ingin disampaikan"
+log
