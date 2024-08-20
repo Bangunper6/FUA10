@@ -20,4 +20,16 @@ git add .
 git commit -m ""
 
 - View git commit history
-git logc
+git log
+
+- BRANCHING
+
+- List all of the branches
+git branch -a
+
+- Create a branch
+git branch [branch-name]
+
+- Switch to a different branch
+git checkout [branch-name]
+git switch [branch-name]
