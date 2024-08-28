@@ -37,3 +37,53 @@
     text-shadow: 2px 2px 10px black;
     /* Horizontal Offset, Vertical Offset, Blur Radius, Color */
 }
+
+.underline {
+    text-decoration: overline;
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: underline overline line-through;
+    text-decoration: line-through;
+    text-decoration-style: dashed;
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: solid; /* Default */
+    text-decoration-color: blue;
+}
+
+.remove-text-decoration{
+    text-decoration: none;
+}
+
+.color-names {
+    color: red;
+    background-color: aqua;
+}
+
+.hexadecimal {
+    color: #00FF00;
+    background-color: #f95119;
+}
+
+.rgb {
+    /* RGB: 0 - 255 A: 0 - 1 */
+    color: rgb(0, 0, 255);
+    background-color: rgba(0, 255, 0, 0.9);
+}
+
+/* Units of Measurement */
+.absolute-unit {
+    font-size: 24px;
+}
+
+.relative-unit-em {
+     /* Relative to the parent element */
+    font-size: 2em;
+}
+
+.relative-unit-rem {
+    /* Relative to the root element */
+    font-size: 2rem;
+}

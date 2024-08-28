@@ -1,0 +1,57 @@
+/* Adding padding to all sides */
+.box1 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+
+/* Shorthand Padding*/
+.box2 {
+    /* 1 value: all sides */
+    /* 2 values: top and bottom, left and right */
+    /* 3 values: top, left and right, bottom */
+    /* 4 values: top, right, bottom, left (clockwise) */
+    padding: 10px 20px 30px 40px;
+}
+
+/* Adding margin to all sides */
+.box3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+
+/* Shorthand Margin */
+.box4 {
+    /* 1 value: all sides */
+    /* 2 values: top and bottom, left and right */
+    /* 3 values: top, left and right, bottom */
+    /* 4 values: top, right, bottom, left (clockwise) */
+    margin: 10px 20px 30px 40px;
+}
+
+/* Border */
+.mix-borders {
+    background-color: tomato;
+    color: white;
+    width: 150px;
+    height: 100px;
+    /* 1 value: all sides */
+    /* 2 values: top and bottom, left and right */
+    /* 3 values: top, left and right, bottom */
+    /* 4 values: top, right, bottom, left (clockwise) */
+    border-width: 8px;
+    border-color: aquamarine rgb(0, 255, 98);
+    border-style: solid dotted dashed double;
+}
+
+/* Circle Container, make sure H & W is same*/
+.circle-container {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+}

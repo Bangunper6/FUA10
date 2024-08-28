@@ -1,0 +1,55 @@
+/*Activing flex */
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    flex-direction: row;
+}
+
+/* Allow us to wrap onto multiple lines */
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+}
+
+/* Position elements within the container */
+/* start / center / end */
+.flexContainer {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+/* Stretch */
+.flexContainer {
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+}
+
+/* Flex grow - Willingness to grow */
+.flexItem1 {
+    flex-grow: 1;
+}
+.flexItem2 {
+    flex-grow: 1;
+}
+.flexItem3 {
+    flex-grow: 1;
+}
+
+/* Flex shrink - Willingness to shrink */
+.flexItem1 {
+    flex-shrink: 2; /* 2 / 5 */
+    flex-basis: 300px;
+}
+.flexItem2 {
+    flex-shrink: 1; /* 1 / 5 */
+    flex-basis: 300px;
+}
+.flexItem3 {
+    flex-shrink: 2; /* 2 / 5 */
+    flex-basis: 300px;
+}
